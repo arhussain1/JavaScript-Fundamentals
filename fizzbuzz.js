@@ -9,6 +9,8 @@ const fizzbuzz = (num) => {
     return 'Buzz'
   }
   else {
-    return `${num}`
+    return num
   }
 } 
+
+module.exports = fizzbuzz;

@@ -17,10 +17,12 @@ The Learning Objectives for this are:
 We created a fizzbuzz function earlier, we now need to use jest to create tests to ensure it's working correctly.
 
 The Learning Objectives for this are:
-  - [ ] complete all the Learning objectives from the previous project but for the FizzBuzz function.
+  - [x] complete all the Learning objectives from the previous project but for the FizzBuzz function.
 
   Criteria to test for:
   - it should return "Fizz" if the number is divisible by 3 (e.g 3 or 9)
   - it should return "Buzz" if the number is divisible by 5 (e.g 5 or 10)
   - it should return "FizzBuzz" if the number is divisible by 15 (e.g 15 or 30)
   - it should just return the number the number is otherwise
+
+  
