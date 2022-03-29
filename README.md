@@ -38,3 +38,13 @@ We will learn how to:
 
 - [x] Use the .concat method to add elements to the array
 - [x] Use an if statement and the .length method to stop any orders being added once 5 orders have been reached. 
+
+##### Phone Number length
+Now we want to be able to text to our customers, however, some of the phone numbers may be incorrect. 
+
+First, we need to create a function called checkNumber, it should return true if the number length is less than 10 and false if it's greater than 10.
+
+Now you should have a function that can check one phone number at a time. Let's speed this up, lets create another function called filterLongNumbers, it's responsibility is to take an array of phone numbers and remove any that have a length greater than 10.
+  - Remember to make use of your checkNumber function with filterLongNumbers
+
+- [x] Once the above have been completed tick this box
