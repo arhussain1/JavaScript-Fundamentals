@@ -48,3 +48,10 @@ Now you should have a function that can check one phone number at a time. Let's 
   - Remember to make use of your checkNumber function with filterLongNumbers
 
 - [x] Once the above have been completed tick this box
+
+##### Personalized text messages
+For this exercise we need to create a function called generateMessages which takes an array of names as an argument and creates a message using the customers name for each one. It should look like this:
+  - ``Hi Anna! 50% off our best candies for you today!``
+  - Where Anna is a name from the array
+
+- [x] Once the above have been completed tick this box
