@@ -25,4 +25,16 @@ The Learning Objectives for this are:
   - it should return "FizzBuzz" if the number is divisible by 15 (e.g 15 or 30)
   - it should just return the number the number is otherwise
 
-  
+#### Arrays
+The following exercises will help us understand how to use arrays in JavaScript
+
+##### Candies Exercise
+For this exercise we need to create an addToBatch function that will add candy orders to an array and batch the orders so that any array can only have a maximum of 5 orders.
+
+We will learn how to:
+  - Declare an array in JS.
+  - Add elements to an array.
+  - Get the length of an array.
+
+- [x] Use the .concat method to add elements to the array
+- [x] Use an if statement and the .length method to stop any orders being added once 5 orders have been reached. 
