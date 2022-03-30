@@ -55,3 +55,43 @@ For this exercise we need to create a function called generateMessages which tak
   - Where Anna is a name from the array
 
 - [x] Once the above have been completed tick this box
+
+#### Arrays and Objects
+- We have recently learned that objects are represented in a similar way to Ruby hashes. see an example below
+```
+const person = {
+  name: 'Maxine',
+  age: 32,
+  address: 'London, E1 123'
+};
+
+// both ways can be used to access an object's property:
+console.log(person.name);
+console.log(person['name']);
+```
+- As you can see we can either call upon the name similar to the way we call for a hash value or we can do something like ``person.name``. 
+- This is we can access attributes of this person class.
+
+##### Personalised messages 2.0
+For this exercise we need to refer back to how we used arrays to print out personalised messages for each customer, however, the messages had a fixed discount given to each customer.
+
+Now we need to customise this discount, we can do this using what we learned about accessing object values. We will use the new array below:
+
+```
+const namesAndDiscounts = [
+  { name: 'Anna', discount: 50 },
+  { name: 'Laura', discount: 40 },
+  { name: 'Josh', discount: 30 },
+  { name: 'Min', discount: 50 },
+  { name: 'Karla',discount:  6 }
+];
+```
+- As you can see each customer has an object which stores its name and discount values. Let use what we learned in array about the map method and apply it here. The goes is to create an upgraded message which features the customers name and discount.
+
+- Each message should like this:
+``Hi Anna! 50% off our best candies for you today!``
+
+- [x] Once the above have been completed tick this box
+
+
+
