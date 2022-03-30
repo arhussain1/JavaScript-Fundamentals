@@ -19,7 +19,8 @@ const candies = [
 const searchEngine = (searchString, maximumPrice) => {
   
   const filterByName = candies.filter(candy => {
-    if (candy.name.startsWith(searchString) && candy.price < maximumPrice) {
+    const searchStringNormalized = searchString.charAt(0).toUpperCase() + searchString.slice(1);
+    if (candy.name.startsWith(searchStringNormalized) && candy.price < maximumPrice) {
       return candy
     }
   });
@@ -28,6 +29,5 @@ const searchEngine = (searchString, maximumPrice) => {
   return returnedResult = filterByName.map(candyObject => candyObject.name)
   
 };
-
 
 module.exports = searchEngine;

@@ -20,4 +20,8 @@ describe('searchEngine', (searchString, maximumPrice) => {
     expect(searchEngine('Ma', 3)).toEqual(['Mars'])
   });
 
+  it('should also be able to handle searches in lowercase', () => {
+    expect(searchEngine('ma', 10)).toEqual(['Mars', 'Maltesers'])
+  });
+
 });
