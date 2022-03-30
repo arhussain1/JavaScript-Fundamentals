@@ -93,5 +93,37 @@ const namesAndDiscounts = [
 
 - [x] Once the above have been completed tick this box
 
+#### Candy search engine
+We need to make a function that can search the following array:
+```
+const candies = [
+  { name: 'Aero', price: 1.99 },
+  { name: 'Skitties', price: 2.99 },
+  { name: 'Mars', price: 1.49 },
+  { name: 'Maltesers', price: 3.49 },
+  { name: 'Skittles', price: 1.49 },
+  { name: 'Starburst', price: 5.99 },
+  { name: 'Ricola', price: 1.99 },
+  { name: 'Polkagris', price: 5.99 },
+  { name: 'Pastila', price: 4.99 },
+  { name: 'Mentos', price: 8.99 },
+  { name: 'Raffaello', price: 7.99 },
+  { name: 'Gummi bears', price: 10.99 },
+  { name: 'Fraise Tagada', price: 5.99 }
+];
+```
 
+For this exercise We will need know how to:
+- Use the filter and map functions.
+- Access an object property.
+- Find out how to verify whether a string is the prefix for another string.
+- Use the toEqual() Jest matcher.
 
+The search engine we are creating should take two arguments, the search string and the maximum price
+It should match the following criteria:
+- the candy name starts by the search string [meaning if I search for 'Ma' i should get => ('Mars' and 'Maltesers')]
+- the candy price is less than the maximum price
+
+Remember, this is a test drive exercise so you need tests
+
+- [x] Once the above have been completed tick this box
