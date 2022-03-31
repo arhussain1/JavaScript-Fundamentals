@@ -129,10 +129,11 @@ Remember, this is a test drive exercise so you need tests
 - [x] Once the above have been completed tick this box
 
 #### Classes
-I we began bigger projects now we would end up with too many functions and methods, we need to start implementing classes to organise our work.
+If we began bigger projects now we would end up with too many functions and methods, we need to start implementing classes to organise our work.
 
 Classes in JavaScript work similar to classes in other OOP languages. The can have methods, attributes and can also be instantiated.
 
+##### User class
 For this task we want to create a User class for our friends candy business.
 Below is a snippet of how we hope to use this class:
 ```
@@ -151,6 +152,43 @@ The learning objective for this are to be able to:
 - Create an instance of a class.
 - Call a method on an instance.
 - Test-drive a class using Jest.
+
+- [x] Begin with writing tests that describe how we want out code to work, use the snippet above
+- [x] Once this task has been completed tick this box
+
+##### Userbase class
+In this exercise we hope to expand on what we did previously with the user class.
+
+We want to make a new class called UserBase which interacts with the User class.
+Below is a snippet of how we intend to use this class:
+```
+const users = [
+  new User('Uma'),
+  new User('Josh'),
+  new User('Ollie')
+];
+
+> const userBase = new UserBase(users);
+
+> userBase.count();
+3
+
+> userBase.getNames();
+[ 'Uma', 'Josh', 'Ollie' ]
+
+> userBase.getIntroductions();
+[
+  'Hi, my name is Uma',
+  'Hi, my name is Josh',
+  'Hi, my name is Ollie'
+]
+```
+
+The goal here is to be able to: 
+- Call upon the User class within the UserBase class
+- Use the map methods for arrays
+
+Make sure to test drive this exercise
 
 - [x] Begin with writing tests that describe how we want out code to work, use the snippet above
 - [x] Once this task has been completed tick this box
