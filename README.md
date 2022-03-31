@@ -127,3 +127,30 @@ It should match the following criteria:
 Remember, this is a test drive exercise so you need tests
 
 - [x] Once the above have been completed tick this box
+
+#### Classes
+I we began bigger projects now we would end up with too many functions and methods, we need to start implementing classes to organise our work.
+
+Classes in JavaScript work similar to classes in other OOP languages. The can have methods, attributes and can also be instantiated.
+
+For this task we want to create a User class for our friends candy business.
+Below is a snippet of how we hope to use this class:
+```
+> const user = new User('Uma');
+
+> user.getName(); 
+'Uma'
+
+> user.getIntroduction();
+'Hi, my name is Uma'
+```
+
+The learning objective for this are to be able to:
+- Declare a class.
+- Declare a method.
+- Create an instance of a class.
+- Call a method on an instance.
+- Test-drive a class using Jest.
+
+- [x] Begin with writing tests that describe how we want out code to work, use the snippet above
+- [x] Once this task has been completed tick this box
