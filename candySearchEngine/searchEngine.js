@@ -1,4 +1,3 @@
-const { result } = require("lodash");
 
 const candies = [
   { name: 'Aero', price: 1.99 },

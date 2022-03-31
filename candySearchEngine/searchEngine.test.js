@@ -1,4 +1,3 @@
-const { expect, it } = require('@jest/globals');
 const searchEngine = require('./searchEngine')
 
 describe('searchEngine', (searchString, maximumPrice) => {
